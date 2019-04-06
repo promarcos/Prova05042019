@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast t;
                         t = (Toast) Toast.makeText(getApplicationContext(), "Senha incorretos!", Toast.LENGTH_LONG);
                         t.show();
+                        //teste
                     }
                 }else {
                     edt_usuario.setError("Login Errado!");
